@@ -8,6 +8,10 @@ import javafx.stage.Stage;
 
 // TT
 public class HelloWorld extends Application {
+	/*
+	 * (non-Javadoc)
+	 * @see javafx.application.Application#start(javafx.stage.Stage)
+	 */
 	public void start(Stage stage) {
 		Label message = new Label("Hello, JavaFX!");
 		message.setFont(new Font(100));
